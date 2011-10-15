@@ -1,0 +1,46 @@
+* Background
+  * lol rake stats
+  * I miss Smalltalk
+  * but also...
+  * *shock*
+  * I miss Java
+
+* Thought experiment
+  * For the last Rails app you worked on:
+    * Could you change the way it persists independently of anything else?
+    * Could you take its object model and create a desktop app from it?
+
+* Rails as a data-moving 4GL
+  * Everyone learns Rails via simple crud apps
+  * It's Ruby. We can do more
+  * So we do, but Rails doesn't tell us how
+  * And worse than that: it actively opposes us
+
+  * Getters
+    * Evil
+    * Necessary?
+    * Thought experiment, worked code example?
+
+  * ActiveRecord
+    * SRP
+    * Stop stealing my class names!
+      * Namespace 'em, dummy
+      * I hope your brain is as good at namespaces as Ruby...
+
+* Presenters:
+  * Replace helper with model method
+  * Replace model method with presenter
+  * why? SRP
+
+* Dependencies
+  * they're all explicit :(
+  * and they're on classes :(
+  * it's another subtle thing, but it pushes the unwary to bad places
+  * service objects?
+    * certainly, we probably want to make the interface between controllers and other stuff as minimal as we can - single dependency per method? Or is even that too much?
+
+* Is there any point?
+  * If your application is basically crud on a few models with a little extra logic here and there, you probably don't need to worry
+    * But if your app exists in the real world, it probably won't fit that description for long
+  * If your application is small, don't worry about object design. Do systems design
+    * Forward example

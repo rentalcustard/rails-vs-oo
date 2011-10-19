@@ -45,3 +45,17 @@
     * But if your app exists in the real world, it probably won't fit that description for long
   * If your application is small, don't worry about object design. Do systems design
     * Forward example
+
+
+From Murray:
+
+Non-AR models
+A business logic layer of ruby objects that make use of, but are separate from the persistence layer
+Building objects to deal with rake tasks
+
+Something about fast tests - can't remove (spec|test)_helper unless you're testing decoupled objects.
+
+Things that can go in AR models:
+  * scopes, finders, etc
+  * validations
+  * simple delegators

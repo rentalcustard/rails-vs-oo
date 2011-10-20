@@ -23,6 +23,7 @@
     * Thought experiment, worked code example?
 
   * ActiveRecord
+    * Fat (object) model. Not fat (ActiveRecord) 'models'.
     * SRP
     * Stop stealing my class names!
       * Namespace 'em, dummy

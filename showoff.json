@@ -1,1 +1,7 @@
-{ "name": "My Preso", "sections": [ {"section":"one"} ]}
+{ "name": "Rails vs object-oriented design", "sections": [ {"section":"intro"},
+                                                           {"section":"oo-guff"},
+                                                           {"section":"activerecord"},
+                                                           {"section":"view-layer"},
+                                                           {"section":"dependencies"},
+                                                           {"section":"conclusion"}
+                                                          ]}

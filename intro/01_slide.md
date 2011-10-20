@@ -1,9 +1,20 @@
-!SLIDE 
-# My Presentation #
+!SLIDE bullets
+# Rails vs object-oriented design #
+
+* rails-vs-oo.heroku.com
 
 !SLIDE bullets incremental
-# Bullet Points #
+# About me #
 
-* first point
-* second point
-* third point
+* @mortice
+* Not the other Tom Stuart!
+* (OO) development - 4 years
+* Ruby/Rails dev - 2 years
+
+!SLIDE bullets
+# About this presentation
+
+* Some ranting
+* Mostly practical examples
+* Just stuff I'm trying...
+

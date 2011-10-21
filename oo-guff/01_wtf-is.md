@@ -11,6 +11,7 @@
 
 !SLIDE bullets
 # But really... #
+* -Inheritance-
 * Encapsulation
 * Polymorphism
 * Quote from Alan Kay here?
@@ -23,3 +24,9 @@
 * Liskov Substitution Principle
 * Erm...
 * Dependency Injection
+
+!SLIDE
+# Imagine a picture of a snooty professor #
+
+!SLIDE
+# THOUGHT EXPERIMENT (omg) #

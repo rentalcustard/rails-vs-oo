@@ -8,7 +8,7 @@
 
 !SLIDE bullets incremental
 # Other things #
-* Mocks and test isolation
+* Mocks, spies and test isolation (vs AR)
 * Read GOOS
 * Fast tests
 

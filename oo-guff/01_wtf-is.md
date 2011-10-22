@@ -22,7 +22,7 @@
 * Single Responsibility Principle
 * Open-closed Principle
 * Liskov Substitution Principle
-* Erm...
+* Interface Segregation Principle
 * Dependency Injection
 
 !SLIDE

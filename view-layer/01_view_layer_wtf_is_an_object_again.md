@@ -57,5 +57,5 @@
 !SLIDE bullets incremental
 # Why? #
   * Watch your models' BMI    
-  * Presenter reuseable
   * Presenters can look like models
+  * Presenters control access to their data

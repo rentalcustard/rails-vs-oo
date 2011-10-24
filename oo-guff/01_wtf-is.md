@@ -32,6 +32,3 @@
 
 !SLIDE
 # Imagine a picture of a snooty professor #
-
-!SLIDE
-# THOUGHT EXPERIMENT (omg) #

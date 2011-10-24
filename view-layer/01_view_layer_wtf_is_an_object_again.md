@@ -1,5 +1,5 @@
 !SLIDE
-# Views aren't objects :'( #
+# **View layer** #
 
 !SLIDE bullets incremental
 # View logic progression #

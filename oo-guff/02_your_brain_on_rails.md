@@ -5,7 +5,7 @@
 # This is your brain on Rails #
 
 !SLIDE
-# Enough ranting... #
+# Thought experiment #
 
 !SLIDE
-# Time to get serious! #
+# Enough ranting... #

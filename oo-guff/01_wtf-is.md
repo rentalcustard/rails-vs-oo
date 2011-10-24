@@ -11,10 +11,15 @@
 
 !SLIDE bullets
 # But really... #
-* -Inheritance-
 * Encapsulation
+* <del>Inheritance</del>
 * Polymorphism
-* Quote from Alan Kay here?
+* <del>Abstraction</del>
+
+!SLIDE
+## *OOP to me means only messaging, local retention and protection and hiding of state-process, and extreme late-binding of all things.* ##
+
+### **(Alan Kay)** ###
 
 !SLIDE bullets incremental
 # SOLID #

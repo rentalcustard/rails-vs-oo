@@ -1,25 +1,27 @@
 !SLIDE 
-# ActiveRecord #
+# **ActiveRecord** #
 
 !SLIDE
 # Typical AR Class #
-* An image here because yea.
 
 !SLIDE bullets incremental
 # ActiveRecord vs SRP #
-Class needs to change when...
+* Class needs to change when...
 * database schema changes
 * business logic changes
 * we want to present it differently
 
 !SLIDE bullets
 # ActiveRecord vs SRP #
-Class needs to change when...
+* Class needs to change when...
 * Anything happens!
+* 
+* 
 
-!SLIDE
-# OK Tom, wtf do we do? #
-* (Note me SRP vs AR vs Encapsulation)
+!SLIDE bullets
+# ActiveRecord vs Encapsulation #
+* Default accessors
+* Finders open to all
 
 !SLIDE
 # Logic module #

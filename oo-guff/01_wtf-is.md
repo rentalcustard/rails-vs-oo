@@ -11,9 +11,9 @@
 
 !SLIDE bullets
 # But really... #
-* Encapsulation
+* **Encapsulation**
 * <del>Inheritance</del>
-* Polymorphism
+* **Polymorphism**
 * <del>Abstraction</del>
 
 !SLIDE
@@ -31,4 +31,4 @@
 * Dependency Injection
 
 !SLIDE
-# Imagine a picture of a snooty professor #
+# Academic? #

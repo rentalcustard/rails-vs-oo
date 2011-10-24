@@ -10,7 +10,6 @@
 * Not the other Tom Stuart!
 * (OO) development - 4 years
 * Ruby/Rails dev - 2 years
-* So not a clue what I'm doing
 
 !SLIDE smallest
 # Recent experience #

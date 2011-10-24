@@ -1,5 +1,5 @@
 !SLIDE 
-# Dependencies #
+# **Dependencies** #
 
 !SLIDE bullets incremental
 # Explicit dependencies bad #
@@ -12,17 +12,28 @@
 * Fuck it, it's Ruby, we can test anything
 
 !SLIDE bullets
-# Increase coupling #
-* Why? Well...
+# Increased coupling #
 * Some code, take it through a couple of iterations
 
 !SLIDE bullets
-# SRP #
-* 3 explicit dependencies
-* Change implementation of one...
-* OSNAP
-
-!SLIDE bullets
 # How to fix? #
-* If controllers only responsible for one thing, have them create service objects and inject those dependencies.
-* lol slides
+* Small objects encapsulating behaviours in reusable fashion
+
+!SLIDE
+
+    @@@ruby
+    class SavingsCalculator
+      include CurrencyFormatting
+      def initialize(tasks)
+        @tasks = tasks
+      end
+
+      def total
+        @tasks.sum(&:saved_amount)
+      end
+
+      def formatted_total
+        format(total)
+      end
+    end
+

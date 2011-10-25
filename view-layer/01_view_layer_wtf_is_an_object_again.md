@@ -23,7 +23,7 @@
       html = ""
       html << "<p>#{widget.title}</p>"
       if widget.owned_by?(current_user)
-        html << "<p>#{widget.details</p>"
+        html << "<p>#{widget.details}</p>"
       end
       html
     end

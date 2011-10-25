@@ -10,11 +10,11 @@
 
 !SLIDE
 # Logic in the view #
-    @@@haml
-    - @widgets.each do |widget|
-      %p= widget.name
-      - if widget.owned_by?(current_user)
-        %p= widget.details
+    @@@html
+    <% @widgets.each do |widget| %>
+      <p><%= widget.name %></p>
+      <% if widget.owned_by?(current_user) %>
+        <p><%= widget.details %></p>
 
 !SLIDE
 # View -> helper #

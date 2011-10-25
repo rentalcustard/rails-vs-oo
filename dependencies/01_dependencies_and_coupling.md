@@ -8,14 +8,6 @@
 * SRP - reasons to change!
 
 !SLIDE bullets
-# Hard to test #
-* Fuck it, it's Ruby, we can test anything
-
-!SLIDE bullets
-# Increased coupling #
-* Some code, take it through a couple of iterations
-
-!SLIDE bullets
 # How to fix? #
 * Small objects encapsulating behaviours in reusable fashion
 

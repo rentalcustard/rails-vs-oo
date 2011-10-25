@@ -1,8 +1,6 @@
 !SLIDE bullets
 # Rails vs object-oriented design #
 
-* rails-vs-oo.heroku.com
-
 !SLIDE bullets incremental
 # About me #
 

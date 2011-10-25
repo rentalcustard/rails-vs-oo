@@ -1,7 +1,7 @@
 { "name": "Rails vs object-oriented design", "sections": [ {"section":"intro"},
                                                            {"section":"oo-guff"},
-                                                           {"section":"view-layer"},
                                                            {"section":"activerecord"},
+                                                           {"section":"view-layer"},
                                                            {"section":"dependencies"},
                                                            {"section":"conclusion"}
                                                           ]}

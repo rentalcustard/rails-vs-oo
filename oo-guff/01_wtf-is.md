@@ -1,11 +1,9 @@
+!SLIDE
+# Thought experiment #
+
 !SLIDE bullets incremental
 # What is Object-oriented design? #
 * IM(NS)HO
-
-!SLIDE
-## *OOP to me means only messaging, local retention and protection and hiding of state-process, and extreme late-binding of all things.* ##
-
-### **(Alan Kay)** ###
 
 !SLIDE bullets smallest
 # SOLID #

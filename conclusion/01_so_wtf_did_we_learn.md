@@ -24,7 +24,13 @@
 !SLIDE
 # Ask me questions and/or slate me #
 
-!SLIDE bullets
-* @mortice - tom.stuart@forward.co.uk
+!SLIDE bullets incremental
+* @mortice 
+* (or @tomstuart)
 * rails-vs-oo.heroku.com
-Image credits
+
+!SLIDE bullets
+* <a href="http://www.destroyallsoftware.com">http://www.destroyallsoftware.com</a>
+* <a href="http://www.growing-object-oriented-software.com/">http://www.growing-object-oriented-software.com</a>
+* <a href="http://rubyrogues.com/object-oriented-programming-in-rails-with-jim-weirich/">http://rubyrogues.com/object-oriented-programming-in-rails-with-jim-weirich/</a>
+* <a href="https://github.com/jcasimir/draper">https://github.com/jcasimir/draper</a>

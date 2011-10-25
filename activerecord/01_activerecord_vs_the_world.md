@@ -3,7 +3,7 @@
 
 !SLIDE bullets incremental
 # ActiveRecord vs SRP #
-* Class needs to change when...
+* Typical AR model needs to change when...
 * database schema changes
 * business logic changes
 * we want to present it differently

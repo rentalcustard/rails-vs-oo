@@ -5,7 +5,7 @@
 # What is Object-oriented design? #
 * IM(NS)HO
 
-!SLIDE bullets smallest
+!SLIDE smbullets 
 # SOLID #
 * Single Responsibility Principle
 *   
@@ -18,7 +18,7 @@
 * Dependency Injection
 *   
 
-!SLIDE bullets smallest
+!SLIDE smbullets
 # SOLID #
 * Single Responsibility Principle
 * *A class should have only one reason to change*

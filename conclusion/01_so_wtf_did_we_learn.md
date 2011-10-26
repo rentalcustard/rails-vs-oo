@@ -18,13 +18,12 @@
 !SLIDE bullets incremental
 # Other things #
 * Mocks, spies and test isolation
-* Read GOOS
 * Fast tests
 
 !SLIDE
 # Ask me questions and/or slate me #
 
-!SLIDE bullets incremental
+!SLIDE bullets
 * @mortice 
 * (or @tomstuart)
 * rails-vs-oo.heroku.com

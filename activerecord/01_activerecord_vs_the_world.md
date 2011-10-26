@@ -46,13 +46,11 @@
     @@@ruby
     class OrdersController < ActionController::Base
       def close
-        order = Order.find(params[:id])
+        #retrieval
         order.close!(params[:method], params[:card])
         Delivery.create! :status => :pending,
                          :order => order
-        #render order success page
-      rescue
-        #redirect back with error
+        #rendering
       end
     end
 
@@ -70,18 +68,14 @@
     @@@ruby
     class OrdersController < ActionController::Base
       def close
-        order = Order.find(params[:id])
+        #retrieval
         processor = OrderProcessor.new(order)
         processor.close(params[:method], params[:card])
-        #render order success page
-      rescue
-        #redirect back with error
+        #rendering 
       end
     end
 
     class OrderProcessor
-      def initialize(order); @order = order; end
-
       def close(method, card_details=nil)
         if method == "card"
           CardPaymentUtil.new.charge(card_details)
@@ -96,14 +90,12 @@
     @@@ruby
     class OrdersController < ActionController::Base
       def close
-        order = Order.find(params[:id])
+        #retrieval
         payment_handler = PaymentHandler.for(params[:method], 
                                               params[:card])
         processor = OrderProcessor.new(order, payment_handler)
         processor.close
-        #render order success page
-      rescue
-        #redirect back with error
+        #rendering
       end
     end
 
@@ -118,7 +110,7 @@
           new
         end
       end
-      
+
       #default payment handling code
     end
 

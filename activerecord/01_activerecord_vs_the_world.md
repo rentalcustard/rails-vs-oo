@@ -71,19 +71,19 @@
     class OrdersController < ActionController::Base
       def close
         order = Order.find(params[:id])
-        reconciler = OrderReconciler.new(order)
-        reconciler.close(params[:method], params[:card])
+        processor = OrderProcessor.new(order)
+        processor.close(params[:method], params[:card])
         #render order success page
       rescue
         #redirect back with error
       end
     end
 
-    class OrderReconciler
+    class OrderProcessor
       def initialize(order); @order = order; end
 
       def close(method, card_details=nil)
-        if method = "card"
+        if method == "card"
           CardPaymentUtil.new.charge(card_details)
         end
         @order.closed = true
@@ -99,8 +99,8 @@
         order = Order.find(params[:id])
         payment_handler = PaymentHandler.for(params[:method], 
                                               params[:card])
-        reconciler = OrderReconciler.new(order, payment_handler)
-        reconciler.close
+        processor = OrderProcessor.new(order, payment_handler)
+        processor.close
         #render order success page
       rescue
         #redirect back with error
@@ -122,7 +122,7 @@
       #default payment handling code
     end
 
-    class OrderReconciler
+    class OrderProcessor
       def close
         @payment_handler.handle_payment
         Delivery.create! :status => :pending, :order => @order

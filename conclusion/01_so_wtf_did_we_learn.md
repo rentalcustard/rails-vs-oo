@@ -15,11 +15,6 @@
     config.autoload_paths << "#{config.root}/lib/widgets"
     #etc!
 
-!SLIDE bullets incremental
-# Other things #
-* Mocks, spies and test isolation
-* Fast tests
-
 !SLIDE
 # Ask me questions and/or slate me #
 

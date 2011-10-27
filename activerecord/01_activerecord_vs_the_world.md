@@ -29,8 +29,7 @@
       def close
         order = Order.find(params[:id])
         if params[:method] = "card"
-          order.closed = true
-          CardPaymentUtil.new.charge(params[:card])
+          ExternalPaymentService.new.charge(params[:card])
         end
         order.closed = true
         order.save!
@@ -57,7 +56,7 @@
     class Order < ActiveRecord::Base
       def close!(method, card_details=nil)
         if method == "card"
-          CardPaymentUtil.new.charge(card_details)
+          ExternalPaymentService.new.charge(card_details)
         end
         self.closed = true
         self.save!
@@ -69,20 +68,19 @@
     class OrdersController < ActionController::Base
       def close
         #retrieval
-        processor = OrderProcessor.new(order)
-        processor.close(params[:method], params[:card])
+        process = OrderProcess.new(order)
+        process.close(params[:method], params[:card])
         #rendering 
       end
     end
 
-    class OrderProcessor
+    class OrderProcess
       def close(method, card_details=nil)
         if method == "card"
-          CardPaymentUtil.new.charge(card_details)
+          ExternalPaymentService.new.charge(card_details)
         end
-        @order.closed = true
         Delivery.create! :status => :pending, :order => @order
-        @order.save!
+        @order.close!
       end
     end
 
@@ -91,10 +89,10 @@
     class OrdersController < ActionController::Base
       def close
         #retrieval
-        payment_handler = PaymentHandler.for(params[:method], 
+        payment_handler = Payment.for(params[:method], 
                                               params[:card])
-        processor = OrderProcessor.new(order, payment_handler)
-        processor.close
+        process = OrderProcess.new(order, payment_handler)
+        process.close
         #rendering
       end
     end
@@ -102,10 +100,10 @@
 !SLIDE smaller
 
     @@@ruby
-    class PaymentHandler
+    class Payment
       def self.for(method, card_details=nil)
         if method == "card"
-          CardPaymentUtil.new(card_details)
+          CardPayment.new(card_details)
         else
           new
         end
@@ -114,19 +112,10 @@
       #default payment handling code
     end
 
-    class OrderProcessor
+    class OrderProcess
       def close
         @payment_handler.handle_payment
         Delivery.create! :status => :pending, :order => @order
         @order.close!
-      end
-    end
-    
-!SLIDE smaller
-    @@@ruby
-    class Order < ActiveRecord::Base
-      def close!
-        self.closed = true
-        self.save!
       end
     end

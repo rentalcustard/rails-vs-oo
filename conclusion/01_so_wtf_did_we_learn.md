@@ -15,9 +15,6 @@
     config.autoload_paths << "#{config.root}/lib/widgets"
     #etc!
 
-!SLIDE
-# Ask me questions and/or slate me #
-
 !SLIDE bullets
 * @mortice 
 * (or @tomstuart)
@@ -28,3 +25,6 @@
 * <a href="http://www.growing-object-oriented-software.com/">http://www.growing-object-oriented-software.com</a>
 * <a href="http://rubyrogues.com/object-oriented-programming-in-rails-with-jim-weirich/">http://rubyrogues.com/object-oriented-programming-in-rails-with-jim-weirich/</a>
 * <a href="https://github.com/jcasimir/draper">https://github.com/jcasimir/draper</a>
+
+!SLIDE
+# Ask me questions and/or slate me #

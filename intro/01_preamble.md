@@ -30,7 +30,31 @@
     | Total                | 167546 | 131623 |     744 |    8219 |  11 |    14 |
     +----------------------+-------+-------+---------+---------+-----+-------+
       Code LOC: 37787     Test LOC: 93836     Code to Test Ratio: 1:2.5
-    
+
+
+<div id="player" style="display:none"></div>
+<script>
+    //Load player api asynchronously.
+    var tag = document.createElement('script');
+    tag.src = "http://www.youtube.com/player_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    var done = false;
+    var player;
+    function onYouTubePlayerAPIReady() {
+        player = new YT.Player('player', {
+          height: '390',
+          width: '640',
+          videoId: 'WWaLxFIVX1s'
+        });
+    }
+
+    window.onkeypress = function(e) {
+      if (e.keyCode === 98) {
+        player.playVideo();
+      }
+    };
+</script>
 
 !SLIDE bullets
 # About this presentation

@@ -5,3 +5,7 @@
 a:visited, a {
   color: blue;
 }
+
+.smbullets ul li {
+  padding: 10px;
+}

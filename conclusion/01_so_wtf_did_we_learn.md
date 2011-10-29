@@ -3,7 +3,6 @@
 * Rails loves you
 * Rails hates you
 * Ruby loves you
-* Use your tools
 * Don't be afraid to derail
 
 !SLIDE smaller

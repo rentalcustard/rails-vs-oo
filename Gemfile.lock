@@ -31,4 +31,4 @@ DEPENDENCIES
   bluecloth
   gli
   nokogiri
-  showoff
+  showoff (~> 0.7.0)

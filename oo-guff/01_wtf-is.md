@@ -7,6 +7,7 @@
 
 !SLIDE smbullets 
 # SOLID #
+
 * Single Responsibility Principle
 *   
 * Open-closed Principle
@@ -20,6 +21,7 @@
 
 !SLIDE smbullets
 # SOLID #
+
 * Single Responsibility Principle
 * *A class should have only one reason to change*
 * Open-closed Principle

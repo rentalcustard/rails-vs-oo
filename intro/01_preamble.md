@@ -5,7 +5,7 @@
 # About me #
 
 * @mortice
-* Not the other Tom Stuart!
+* Not the other @tomstuart
 * (OO) development - 4 years
 * Ruby/Rails dev - 2 years
 
@@ -55,13 +55,6 @@
       }
     };
 </script>
-
-!SLIDE bullets
-# About this presentation
-
-* Some ranting
-* Mostly practical examples
-* Just stuff I'm trying...
 
 !SLIDE
 # Massive thank you #

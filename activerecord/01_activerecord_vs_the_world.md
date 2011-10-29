@@ -18,7 +18,7 @@
 
 !SLIDE bullets
 # ActiveRecord vs DI and OCP? #
-* No more than anything else in Rails
+* OK AR, I'll let you off this one.
 
 !SLIDE
 # Some code #

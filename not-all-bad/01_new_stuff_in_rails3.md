@@ -1,6 +1,10 @@
 !SLIDE 
 # **It's not all bad** #
 
+!SLIDE center
+
+![Trollface](trollface.png)
+
 !SLIDE
 # Custom validators #
     @@@ruby

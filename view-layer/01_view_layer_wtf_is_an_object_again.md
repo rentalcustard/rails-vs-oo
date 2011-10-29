@@ -1,5 +1,5 @@
 !SLIDE
-# Did you know? #
+# True fact #
 
 !SLIDE
 # **View layer** #

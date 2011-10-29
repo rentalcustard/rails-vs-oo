@@ -1,5 +1,5 @@
 !SLIDE
-# **True fact** #
+# **True facts** #
 
 !SLIDE
 # **View layer** #

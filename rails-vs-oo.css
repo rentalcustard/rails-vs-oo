@@ -1,3 +1,7 @@
 .smallest {
   font-size: 50%;
 }
+
+a:visited, a {
+  color: blue;
+}

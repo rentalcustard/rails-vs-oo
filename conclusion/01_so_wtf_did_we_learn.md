@@ -24,6 +24,7 @@
 * <a href="http://www.growing-object-oriented-software.com/">http://www.growing-object-oriented-software.com</a>
 * <a href="http://rubyrogues.com/object-oriented-programming-in-rails-with-jim-weirich/">http://rubyrogues.com/object-oriented-programming-in-rails-with-jim-weirich/</a>
 * <a href="https://github.com/jcasimir/draper">https://github.com/jcasimir/draper</a>
+* <a href="http://www.youtube.com/watch?v=U5X4N2exOsU">The Cookie Monster sings Tom Waits</a>
 
 !SLIDE
 # Ask me questions and/or slate me #

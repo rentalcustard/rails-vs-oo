@@ -1,3 +1,7 @@
+!SLIDE
+# **Stop** #
+## These slides don't make much sense without me talking. ##
+## So you shouldn't look at them unless you want the links at the end. ##
 !SLIDE bullets
 # Rails vs object-oriented design #
 
